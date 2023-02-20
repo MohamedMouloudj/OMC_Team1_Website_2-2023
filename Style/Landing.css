@@ -1,0 +1,229 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Inria Sans;
+    src: url('../res/Font/Inria_Sans/InriaSans-Regular.ttf');
+}
+@font-face {
+    font-family: Inter;
+    src: url('../res/Font/Inter/static/Inter-Regular.ttf');
+}
+
+header{
+    display: flex;
+    font-family:Inria Sans ;
+    background-color: white;
+    position:sticky;
+    z-index: 1;
+    top: 0;
+    justify-content: space-between;
+    height: 70px;
+}
+figure{
+    position: relative;
+    top:9px;
+    left:14px;
+    display: flex;
+    align-items:self-end;
+}
+figure img{
+    width:70px;
+    height:87.5px;
+}
+figure h3{
+    width:120px;
+    height:34px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+nav *{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    gap:2vw;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items:last baseline;
+    margin: 0 3vw 10px 0;
+}
+header button{
+    width: 103px;
+    height: 37px;
+    border-radius: 21px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.252);
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+.LogIn{
+    background-color: white;
+    color:black;
+    font-weight: 500;
+    border:solid 1px #064AFA ;
+}
+.SignUp{
+    background-color: #064AFA;
+    color: white;
+    font-weight: 600;
+    border:none;
+}
+
+
+.container1{
+    width:100vw;
+    height: 100vh;
+    background:url('../res/hero.png') ;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.cntnt1{
+    position: relative;
+    top:15vh;
+    left:6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7vh;
+}
+.cntnt1 h1{
+    color: #1A3C94;
+    font-size:75px;
+    font-family: Inter;
+    width:600px;
+    line-height: 90.7px;
+    font-weight: 700;
+    font-weight:75px;
+}
+.cntnt1 p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size:21px;
+    line-height: 25px;
+    width: 460px;
+}
+.cntnt1 button{
+    background-color: #064AFA;
+    border:none;
+    border-radius: 16px;
+    width:195px;
+    height:41px;
+    box-shadow: 0px 4px 6px 3px rgba(0, 30, 107, 0.29);
+}
+.cntnt1 a{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.container2{
+    width:100vw;
+    height: 860px;
+    background:url('../res/Q&A.png') ;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.container2 div{
+    display:flex;
+    flex-direction:column;
+    gap:7vh;
+    position: relative;
+    top:15vh;
+    left:6vw;
+    width:600px;
+}
+.container2 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FF0000;
+}
+.container2 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    width: 460px;
+}
+
+.container3{
+    background: url('../res/win.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    width:100vw;
+    height: 860px;
+}
+.container3 div{
+    display:flex;
+    flex-direction:column;
+    gap:7vh;
+    position: relative;
+    top:15vh;
+    right: 0;
+    translate:43vw 0;
+    width:500px;
+    margin-right: 0;
+}
+.container3 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFC70E;
+    width:460px
+}
+.container3 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    width: 460px;
+}
+
+.container4{
+    background: url('../res/forUSTHB.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    width:100vw;
+    height: 860px;
+}
+.container4 div{
+    display:flex;
+    flex-direction:column;
+    gap:7vh;
+    position: relative;
+    top:15vh;
+    width:600px;
+    left:6vw;
+}
+.container4 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1A3C94;
+}
+.container4 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    width: 460px;
+}

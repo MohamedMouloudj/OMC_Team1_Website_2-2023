@@ -1,0 +1,105 @@
+
+  
+  
+
+header{
+  align-items: center;
+  padding: 30px 10% ;
+  display: flex ;
+  justify-content: flex-end ;
+  height: 20px ;
+}
+li, a, botton {
+  text-decoration: none ;
+  color : black ;
+  font-weight: 500 ;
+  font-size: 16px ;
+}
+botton {
+  padding: 9px 25px ;
+  background-color:#0066FF;
+  border: none ;
+  border-radius: 50px ;
+  cursor: pointer ;
+}
+.logo {
+  margin-right: auto ;
+}
+.liste {
+  list-style: none ;
+}
+.liste li {
+  display: inline-block ;
+  padding: 0px 20px ;
+}
+.liste li a {
+  transition: all o.3s ease 0s ;
+}
+.bcolor{
+  color : #99CCFF;
+}
+.dbcolor{
+  color : #000099;
+}
+.main {
+  background-color: #99CCFF;
+  padding: 20px ;
+  margin: 50px ;
+  display: flex ;
+  flex-direction: row ;
+  
+}
+.parts{
+  background-color: whitesmoke ;
+  margin: 20px ;
+  padding: 20px ;
+  font-weight: 50px;
+  justify-content: center ;
+}
+.parts:first-child{
+  height: 200px;
+  align-content: center ;
+}
+.btn{
+  background-color: #000099;
+  color : white ;
+  align-items: center ;
+  border-radius: 0px ;
+  margin-left: 50px ;
+}
+#ptbar {
+  margin: 45px auto ;
+  overflow: hidden ;
+}
+.bar {
+  width: 90% ;
+  background-color: white ;
+  border-radius: 100px ;
+  hight: 40px ;
+  position: relative;
+  text-transform: uppercase ;
+  margin: 20px auto ;
+}
+.q&a{
+  font-size: 16px ;
+  margin-top: 10px;
+  margin-left: 15px;
+ /* z-index: 1 ;
+  position: absolute;*/
+}
+#points{
+  width: 50%;
+  border-radius: 100px;
+  background-color: royalblue ;
+  position: relative;
+  height: 40px;
+  animation: anmpt 4s;
+}
+@keyframes anmpt {
+  from {width: 0px ;}
+  to {width: 50%;}
+}
+
+
+
+

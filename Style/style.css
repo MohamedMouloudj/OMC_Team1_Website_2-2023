@@ -1,7 +1,4 @@
 
-  
-  
-
 header{
   align-items: center;
   padding: 30px 10% ;
@@ -75,12 +72,12 @@ botton {
   width: 90% ;
   background-color: white ;
   border-radius: 100px ;
-  hight: 40px ;
+  height: 40px ;
   position: relative;
   text-transform: uppercase ;
   margin: 20px auto ;
 }
-.q&a{
+.qa{
   font-size: 16px ;
   margin-top: 10px;
   margin-left: 15px;

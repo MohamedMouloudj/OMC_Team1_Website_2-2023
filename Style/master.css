@@ -195,12 +195,24 @@ header nav .form i {
   
 
 
+.text ul{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.text ul div{
+  display: flex;
+  width: fit-content;
+}
 
+.text img{
+  width:30px
+}
 
-
-
-
-
+a{
+  text-decoration: none;
+  color:#090909;
+}
 
 .container2 {
   padding-left: 15px;

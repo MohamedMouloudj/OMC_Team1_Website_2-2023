@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: hidden;
+    height: min-content;
 }
 @font-face {
     font-family: Inria Sans;
@@ -13,7 +14,8 @@ body{
     font-family: Inter;
     src: url('../res/Font/Inter/static/Inter-Regular.ttf');
 }
-
+@media screen and (min-width:1200px) {
+    
 header{
     display: flex;
     font-family:Inria Sans ;
@@ -115,20 +117,41 @@ header a{
     border-radius: 16px;
     width:195px;
     height:41px;
-    box-shadow: 0px 4px 6px 3px rgba(0, 30, 107, 0.29);
+    box-shadow: 2px 4px 0px 3px #1A3C94;
+}
+.cntnt1 button:hover{
+    background-color: #064AFA;
+    border:none;
+    border-radius: 16px;
+    width:195px;
+    height:41px;
+    box-shadow: 2px 4px 0px 3px #18264b;
+}
+.cntnt1 button:active{
+    background-color: #064AFA;
+    border:none;
+    border-radius: 16px;
+    width:195px;
+    height:38px;
+    transform: translate(3px, 5px);
+    box-shadow: 2px 4px 0px 3px #1A3C94;
 }
 .cntnt1 a{
+    display: flex;
     color: white;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
 }
 
 .container2{
     width:100vw;
-    height: 860px;
+    height: 800px;
     background:url('../res/Q&A.png') ;
     background-repeat: no-repeat;
     background-position: right top;
@@ -186,7 +209,8 @@ header a{
     color: #FFC70E;
     width:460px
 }
-.container3 p{
+.container3 li{
+    list-style: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -200,7 +224,7 @@ header a{
     background-repeat: no-repeat;
     background-position: right top;
     width:100vw;
-    height: 860px;
+    height: 680px;
 }
 .container4 div{
     display:flex;
@@ -226,4 +250,500 @@ header a{
     font-size: 21px;
     line-height: 25px;
     width: 460px;
+}
+}
+
+@media screen and (min-width:750px) and (max-width:1200px){
+    header{
+        display: flex;
+        font-family:Inria Sans ;
+        background-color: white;
+        position:sticky;
+        z-index: 1;
+        top: 0;
+        justify-content: space-between;
+        height: 70px;
+    }
+    figure{
+        position: relative;
+        top:9px;
+        left:14px;
+        display: flex;
+        align-items:self-end;
+    }
+    figure img{
+        width:70px;
+        height:87.5px;
+    }
+    figure h3{
+        width:120px;
+        height:34px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    nav *{
+        font-size: 20px;
+    }
+    nav{
+        display: flex;
+        gap:2vw;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items:last baseline;
+        margin: 0 3vw 10px 0;
+    }
+    header button{
+        width: 103px;
+        height: 37px;
+        border-radius: 21px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.252);
+    }
+    header a{
+        text-decoration: none;
+        color:inherit;
+    }
+    .LogIn{
+        background-color: white;
+        color:black;
+        font-weight: 500;
+        border:solid 1px #064AFA ;
+    }
+    .SignUp{
+        background-color: #064AFA;
+        color: white;
+        font-weight: 600;
+        border:none;
+    }
+    
+    
+    .container1{
+        width:100vw;
+        height: 85vh;
+        background:url('../res/hero.png') ;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 860px;
+    }
+    .cntnt1{
+        position: relative;
+        top:12vh;
+        left:5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vh;
+    }
+    .cntnt1 h1{
+        color: #1A3C94;
+        font-size:60px;
+        font-family: Inter;
+        width:500px;
+        line-height: 80.7px;
+        font-weight: 600;
+    }
+    .cntnt1 p{
+        font-family: Inter;
+        font-weight: 400;
+        font-size:19px;
+        line-height: 25px;
+        width: 50vw;
+    }
+    .cntnt1 button{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:180px;
+        height:32px;
+        box-shadow: 2px 4px 0px 3px #1A3C94;
+    }
+    .cntnt1 button:hover{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:180px;
+        height:32px;
+        box-shadow: 2px 4px 0px 3px #18264b;
+    }
+    .cntnt1 button:active{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:177px;
+        height:30px;
+        transform: translate(2px, 2px);
+        box-shadow: 2px 4px 0px 3px #1A3C94;
+    }
+    .cntnt1 a{
+        display: flex;
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        height: 29px;
+    }
+    
+    .container2{
+        width:100vw;
+        height: 100vh;
+        background:url('../res/Q&A.png') ;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 850px;
+    }
+    .container2 div{
+        position: relative;
+        top:12vh;
+        left:5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vh;
+    }
+    .container2 h2{
+        font-size:50px;
+        font-family: Inter;
+        width:70vw;
+        line-height: 80.7px;
+        font-weight: 600;
+        color: #FF0000;
+    }
+    .container2 p{
+        font-family: Inter;
+        font-weight: 400;
+        font-size:19px;
+        line-height: 25px;
+        width: 50vw;
+    }
+    
+    .container3{
+        background: url('../res/win.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size:900px;
+        width:100vw;
+        height: 90vh;
+    }
+    .container3 div{
+        display:flex;
+        flex-direction:column;
+        gap:5vh;
+        position: relative;
+        top:15vh;
+        right: 0;
+        translate:47vw 0;
+        width:400px;
+        margin-right: 0;
+    }
+    .container3 h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFC70E;
+        width:440px
+    }
+    .container3 li{
+        list-style: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+        width: 50vw;
+    }
+    
+    .container4{
+        background: url('../res/forUSTHB.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 860px;
+        width:100vw;
+        height: 460px;
+    }
+    .container4 div{
+        display:flex;
+        flex-direction:column;
+        gap:5vh;
+        position: relative;
+        top:15vh;
+        width:600px;
+        left:5vw;
+    }
+    .container4 h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        width:65vw;
+        color: #1A3C94;
+    }
+    .container4 p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:750px){
+    body{
+        overflow-x: hidden;
+        height: min-content;
+    }
+    header{
+        display: flex;
+        font-family:Inria Sans ;
+        background-color: white;
+        position:sticky;
+        z-index: 1;
+        top: 0;
+        width: 100vw;
+        justify-content: space-between;
+        height: 50px;
+    }
+    figure{
+        position: relative;
+        top:5px;
+        left:3px;
+        display: flex;
+        align-items:self-end;
+    }
+    figure img{
+        width:40px;
+        height:55px;
+    }
+    figure h3{
+        width:70px;
+        height:25px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    nav *{
+        font-size: 12px;
+    }
+    nav{
+        display: flex;
+        gap:2vw;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items:last baseline;
+        margin: 0 10px 10px 0;
+    }
+    header button{
+        width: 50px;
+        height: 18px;
+        border-radius: 7px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.252);
+    }
+    header a{
+        text-decoration: none;
+        color:inherit;
+    }
+    .LogIn{
+        background-color: white;
+        color:black;
+        font-weight: 500;
+        border:solid 1px #064AFA ;
+    }
+    .SignUp{
+        background-color: #064AFA;
+        color: white;
+        font-weight: 500;
+        width: max-content;
+        border:none;
+    }
+    
+
+    
+    .container1{
+        width:100vw;
+        height: 70vh;
+        background:url('../res/hero.png') ;
+        background-repeat: no-repeat;
+        background-position:85% 120%;
+        background-size: 700px;
+    }
+    .cntnt1{
+        margin: 0;
+        width:73vw;
+        height: 40vh;
+        position: relative;
+        top:10vh;
+        left:5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vh;
+    }
+    .cntnt1 h1{
+        color: #1A3C94;
+        font-size:25px;
+        font-family: Inter;
+        width:65vw;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .cntnt1 p{
+        font-family: Inter;
+        font-weight: 600;
+        font-size:15px;
+        line-height: 18px;
+        width: 47vw;
+    }
+    .cntnt1 button{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:180px;
+        height:32px;
+        box-shadow: 2px 4px 0px 3px #1A3C94;
+        position: relative;
+        top:26vh;
+    }
+    .cntnt1 button:hover{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:180px;
+        height:32px;
+        box-shadow: 2px 4px 0px 3px #18264b;
+    }
+    .cntnt1 button:active{
+        background-color: #064AFA;
+        border:none;
+        border-radius: 16px;
+        width:172px;
+        height:25px;
+        transform: translate(2px, 2px);
+        box-shadow: 2px 4px 0px 3px #1A3C94;
+    }
+    .cntnt1 a{
+        display: flex;
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        height: 27px;
+    }
+    
+    .container2{
+        width:100vw;
+        height: 85vh;
+        background:url('../res/Q&A.png') ;
+        background-repeat: no-repeat;
+        background-position:190% 110%;
+        background-size: 430px;
+    }
+    .container2 div{
+        position: relative;
+        top:14vh;
+        left:5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vh;
+        width:73vw;
+    }
+    .container2 h2{
+        font-size:25px;
+        font-family: Inter;
+        width:70vw;
+        line-height: 30px;
+        font-weight: 800;
+        color: #FF0000;
+    }
+    .container2 p{
+        font-family: Inter;
+        font-weight: 400;
+        font-size:15px;
+        line-height: 18px;
+        width: 80vw;
+    }
+    
+    .container3{
+        background: url('../res/win.png');
+        background-repeat: no-repeat;
+        background-position: -20% 110%;
+        background-size:600px;
+        width:100vw;
+        height: 90vh;
+    }
+    .container3 div{
+        display:flex;
+        flex-direction:column;
+        gap:3vh;
+        position: relative;
+        top:6vh;
+        left:5vw;
+        width:73vw;
+        margin-right: 0;
+    }
+    .container3 h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFC70E;
+        width:80vw
+    }
+    .container3 li{
+        list-style: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        width: 80vw;
+    }
+    
+    .container4{
+        background: url('../res/forUSTHB.png');
+        background-repeat: no-repeat;
+        background-position: 135% 115%;
+        background-size: 500px;
+        width:100vw;
+        height: 70vh;
+    }
+    .container4 div{
+        display:flex;
+        flex-direction:column;
+        gap:5vh;
+        position: relative;
+        top:12vh;
+        width:73vw;
+        left:5vw;
+    }
+    .container4 h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        width:60vw;
+        color: #1A3C94;
+    }
+    .container4 p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        width: 70vw;
+        margin-bottom: 20px;
+    }
 }

@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&family=Inter:wght@400;500;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Inria Sans', sans-serif;
+
+ }
+
+ body {
+     background-color: #F4F8FD;
+ }
+
+
+
+ /*center*/
+
+ .main .center {
+     width: 100%;
+     height: 92vh;
+     font-family: 'Inter';
+     font-style: normal;
+
+ }
+
+ /* center content */
+ .title {
+     font-size: 3rem;
+     margin-top: 140px;
+     margin-left: 400px;
+     font-weight: 700;
+     color: #474646;
+ }
+
+ .title p {
+     display: inline;
+
+ }
+
+ .title img {
+     width: 100px;
+     height: 100px;
+     display: inline;
+     vertical-align: middle;
+ }
+
+ .tedt {
+     font-size: 30px;
+     margin: 20px 100px 50px 400px;
+     line-height: 60px;
+     font-weight: 500;
+
+
+ }
+
+ .red {
+     color: #FF0000;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+ }
+
+ .blue {
+     color: #064AFA;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+ }
+
+ .tedto {
+     position: relative;
+     top: 69px;
+     font-size: 30px;
+     margin: 0 100px 50px 0;
+     line-height: 60px;
+     font-weight: 500;
+     padding: 0;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     color: #000000;
+ }
+
+ .tedto img {
+     position: relative;
+     width: 70px;
+     height: 68.85px;
+     bottom: 20px;
+
+ }
+
+ .box-container {
+     margin-top: 140px;
+     margin-left: 356px;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     margin-right: 190px;
+     flex-wrap: wrap;
+
+ }
+
+ .box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     width: 272px;
+     height: 232px;
+     margin-left: 40px;
+     margin-bottom: 50px;
+     flex-wrap: nowrap;
+     color: #ffffff;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     cursor: pointer;
+
+
+
+ }
+
+ #gold {
+     background: #FFC70E;
+     box-shadow: 0px 4px 22px #FFC70E;
+
+ }
+
+ #blue {
+     background: #8CB0DA;
+     box-shadow: 0px 4px 22px #6D8DDF;
+ }
+
+ #red {
+     background: #FF0000;
+     box-shadow: 0px 4px 22px #FF0000;
+ }
+
+ #lastone {
+     margin-left: 400px;
+     padding-bottom: 50px;
+ }

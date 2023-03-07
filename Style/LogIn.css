@@ -1,0 +1,94 @@
+*{
+    box-shadow: 0;
+    margin: 0
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#8CB0DA;
+    overflow-y: hidden;
+}
+
+main div h3{
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-weight: 800; 
+    transform: translate(190%, 800%);
+}
+#Anim{
+    margin:5vh 0 10px 0;
+    position: absolute;
+    width:99vw;
+    height: 80vh;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+
+main img{
+    width:30%;
+    height:100%;
+    transform: translate(-8%, 0);
+    animation: Disapear 10s;
+}
+#FRM{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 53vh;
+    margin: 15vh;
+    box-shadow: 0 0 5px 2px rgba(219, 207, 207, 0.754);
+}
+form input{
+    width:20vw;
+    height: 30px;
+    outline: none;
+    border: solid 1px rgb(166, 166, 166);
+}
+form button{
+    width: 5em;
+    height: 35px;
+    background-color:#064AFA ;
+    color: white;
+    border:none;
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 7px;
+    box-shadow: 0 4px 4px gray;
+}
+form button:hover{
+    opacity: 0.7;
+}
+form a{
+    position: relative;
+    left: 45px;
+    color: red;
+    text-decoration:underline;
+    font-size: 16px;
+    font-weight: 400;
+}
+form h1{
+    color:#1A3C94;
+    position: relative;
+    left:-100px;
+    bottom: -10px;
+}
+
+@keyframes Disapear {
+    0% {width:29% ;opacity: 0.9;height: 99%;}
+    25% {width:28%;height:98% ;opacity: 0.7;}
+    60%{width:27%;opacity: 0.5;height:97%;}
+    100%{width:26%;opacity: 0.3;height: 96%;}
+}

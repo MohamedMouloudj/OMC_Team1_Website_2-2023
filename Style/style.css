@@ -1,9 +1,19 @@
-
+header div:nth-child(1){
+  display: flex;
+  width: fit-content;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav{
+  display: flex;
+  align-items: center;
+}
 header{
   align-items: center;
   padding: 30px 10% ;
   display: flex ;
-  justify-content: flex-end ;
+  justify-content: space-between ;
   height: 20px ;
 }
 li, a, botton {
@@ -14,6 +24,7 @@ li, a, botton {
 }
 botton {
   padding: 9px 25px ;
+  color: white;
   background-color:#0066FF;
   border: none ;
   border-radius: 50px ;

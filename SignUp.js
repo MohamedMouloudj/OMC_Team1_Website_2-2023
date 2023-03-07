@@ -21,7 +21,7 @@ function redirect(){
 }
 function mailValid(){
     var USTHB=document.getElementById("USTHB").value;
-    var regex= /^([a-zA-Z0-9\.-]+)@(etu.usthb\.)dz$/
+    var regex= /^([a-zA-Z0-9\.-]+)@(etu\.usthb\.)dz$/
 
     if(regex.test(USTHB)){
         return true

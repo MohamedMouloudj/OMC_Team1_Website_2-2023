@@ -87,8 +87,8 @@ form h1{
 }
 
 @keyframes Disapear {
-    0% {width:29% ;opacity: 0.9;height: 99%;}
-    25% {width:28%;height:98% ;opacity: 0.7;}
-    60%{width:27%;opacity: 0.5;height:97%;}
-    100%{width:26%;opacity: 0.3;height: 96%;}
+    0% {opacity: 1;transform: translate(-15%,0);}
+    25% {opacity: 0.7;}
+    60%{opacity: 0.5;transform: translate(15%,0);}
+    100%{opacity: 0.1;}
 }

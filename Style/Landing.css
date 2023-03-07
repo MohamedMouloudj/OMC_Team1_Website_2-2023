@@ -499,6 +499,9 @@ header a{
         overflow-x: hidden;
         height: min-content;
     }
+    p,h2{
+        backdrop-filter: blur(2px);
+    }
     header{
         display: flex;
         font-family:Inria Sans ;
@@ -509,17 +512,19 @@ header a{
         width: 100vw;
         justify-content: space-between;
         height: 50px;
+        align-items: center;
     }
     figure{
         position: relative;
         top:5px;
         left:3px;
         display: flex;
-        align-items:self-end;
+        align-items:center;
     }
     figure img{
         width:40px;
         height:55px;
+        align-self: center;
     }
     figure h3{
         width:70px;
@@ -536,14 +541,17 @@ header a{
         gap:2vw;
         justify-content: space-around;
         flex-wrap: nowrap;
-        align-items:last baseline;
+        align-items:center;
         margin: 0 10px 10px 0;
     }
     header button{
-        width: 50px;
+        width: 55px;
         height: 18px;
         border-radius: 7px;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.252);
+    }
+    header button a{
+        width: 2rem;
     }
     header a{
         text-decoration: none;
@@ -567,7 +575,7 @@ header a{
     
     .container1{
         width:100vw;
-        height: 70vh;
+        height: 68vh;
         background:url('../res/hero.png') ;
         background-repeat: no-repeat;
         background-position:85% 120%;
@@ -642,10 +650,10 @@ header a{
     
     .container2{
         width:100vw;
-        height: 85vh;
+        height: 92vh;
         background:url('../res/Q&A.png') ;
         background-repeat: no-repeat;
-        background-position:190% 110%;
+        background-position:190% 100%;
         background-size: 430px;
     }
     .container2 div{
@@ -680,7 +688,7 @@ header a{
         background-position: -20% 110%;
         background-size:600px;
         width:100vw;
-        height: 90vh;
+        height: 88vh;
     }
     .container3 div{
         display:flex;
@@ -714,7 +722,7 @@ header a{
     .container4{
         background: url('../res/forUSTHB.png');
         background-repeat: no-repeat;
-        background-position: 135% 115%;
+        background-position: 135% 110%;
         background-size: 500px;
         width:100vw;
         height: 70vh;

@@ -4,29 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="navbar-sidebar.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-
+    <link rel="stylesheet" href="/mindchat-quiz/navbar-sidebar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
     <title>Quiz</title>
   </head>
   <body>
     <!-------------------nav--------------------->
     <nav class="navbar">
+      <div class="content">
       <div class="logo">
-        <img src="/mindchat-quiz/asset/logo2 (2).png" alt="" class="logo-img" />
+        <img src="/mindchat-quiz/asset/logo2 (2).png " alt="" class="logo-img" />
         <span for="">MindChat</span>
       </div>
-      <div class="nav-menu">
-        <ul>
+        <ul class="nav-menu">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
           <li><a href="#">Feed</a></li>
-          <li><a href="../About Us.html">Contact us</a></li>
-          <li><a href="#">My profile</a></li>
+          <li><a href="/contactUs.html">Contact us</a></li>
+          <li><a href="/Profile.html" class="h1">My profile</a></li>
+          <li><a href="#" class="h-12">Quizz</a></li>
+          <li><a href="/help.html" class="h-12">Help</a></li>
+          <button class="Lo-btn">Log out</button>
+
+            </ul>
+          </div>
+     
+
         </ul>
-        <button class="Lo-btn">Log out</button>
       </div>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
     </nav>
     <!---------------main------------------>
     <div class="main">
@@ -37,7 +48,7 @@
           <p>Feed</p>
         </div>
         <div class="img">
-          <img src="/mindchat-quiz/asset/icons8-account-64.png" alt="" />
+          <img src="/mindchat-quiz/asset/icons8-user-account-50.png" alt="" />
           <p>My profile</p>
         </div>
         <div class="img">
@@ -52,11 +63,7 @@
         </div>
         <div class="item">
           <input type="checkbox" id="A" />
-          <img
-            src="/mindchat-quiz/asset/right-arrow.png"
-            alt=""
-            class="arrow"
-          />
+          <img src="/mindchat-quiz/asset/right-arrow.png" alt="" class="arrow" />
           <label for="A">Filter</label>
           <ul>
             <div class="subbb">
@@ -97,5 +104,6 @@
       <!--------centrer---------------->
       <div class="center"></div>
     </div>
+    <script src="/mindchat-quiz/quiz.js"></script>
   </body>
 </html>
